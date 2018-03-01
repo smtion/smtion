@@ -1,0 +1,36 @@
+.sidebar {
+  p,
+  li {
+    font-size: $type-size-5;
+  }
+}
+.sidebar__left {
+  margin-bottom: 1em;
+  display: none;
+
+  @include breakpoint($large) {
+    width: $left-sidebar-width-narrow;
+    z-index: 10;
+  }
+
+  @include breakpoint($x-large) {
+    display: block;
+    width: $left-sidebar-width;
+  }
+}
+
+.splash .sidebar__right {
+  @include breakpoint($large) {
+    position: relative;
+    float: right;
+    margin-right: 0;
+  }
+
+  @include breakpoint($x-large) {
+    margin-right: 0;
+  }
+}
+
+.sidebar .author__name {
+  font-size: $type-size-4;
+}

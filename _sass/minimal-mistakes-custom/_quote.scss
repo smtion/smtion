@@ -1,0 +1,14 @@
+.quote {
+  & > *:before {
+    content: '"';
+    font-size: 1.25em;
+    color: $primary-color;
+    font-family: monospace;
+  }
+  & > *:after {
+    content: '"';
+    font-size: 1.25em;
+    color: $primary-color;
+    font-family: monospace;
+  }
+}

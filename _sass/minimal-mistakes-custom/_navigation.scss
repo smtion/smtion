@@ -1,0 +1,18 @@
+.nav__title {
+  font-weight: normal;
+}
+
+.toc {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.toc__menu {
+  letter-spacing: 0.5px;
+  text-transform: none;
+
+  li,
+  a {
+    font-size: 1em;
+  }
+}
